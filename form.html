@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center>
+        <div>
+            <form>
+                <body bgcolor="seagreen" cellpadding="10">
+                    <h2>Don't have an account!!! Wanna Join??</h2>
+                    <table bgcolor="darkgreen" cellspacing="0" cellpadding="10">
+                        <tr>
+                            <td>First Name</td>
+                            <td><input name="firstname" type="text" placeholder="First-Name"></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                            <td><input name="lastname" type="text" placeholder="Last-Name"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td><input type="radio" name="gender" value="male">male
+                                <input type="radio" name="gender" value="female">female
+                                <input type="radio" name="gender" value="other">other
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Select City</td>
+                            <td><select name="cities">
+                                <option value="Select the City">Select the city</option>
+                                <option value="Noida">Noida</option>
+                                <option value="Kanpur">Kanpur</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Other">Other</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td><textarea name="" id="" cols="30" rows="5" placeholder="Address"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td><input type="password" placeholder="password"></td>
+                        </tr>
+                        <tr>
+                            <td>Select file</td>
+                            <td><input type="file"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="check" value="I agree terms and condition">I agree terms and condition
+                            </td>
+                        </tr>
+                </table>
+            </form>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </center>
+</body>
+</html>
